@@ -1123,7 +1123,7 @@ blockquote {
 }
 @media screen and (min-width: 900px) {
   #aside_content .card_widget {
-    margin-left: 15px;
+    margin-right: 15px;
   }
 }
 @-moz-keyframes announ_animation {
@@ -3556,6 +3556,30 @@ a.article-meta__categories:hover {
 }
 #page_site-info #site-title {
   font-family: PingFang SC, Hiragino Sans GB, "Microsoft JhengHei", "Microsoft YaHei", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+@media screen and (min-width: 900px) {
+  #recent-posts {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -o-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+  }
+  #page,
+  .category-content,
+  #archive,
+  .tag-cloud,
+  .flink,
+  #tag,
+  #category {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -o-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+  }
 }
 @media screen and (max-width: 900px) {
   #page,
